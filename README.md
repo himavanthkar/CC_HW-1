@@ -121,5 +121,4 @@ This will start both the backend server (port 5001) and the frontend development
 
 ## License
 
-This project is licensed under the MIT License.
 
