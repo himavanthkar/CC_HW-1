@@ -156,21 +156,24 @@ Fetches quiz details including questions.
 ### 4. Create Quiz  
 **POST** `/api/quizzes`  
 Creates a new quiz with questions, correct answers, and metadata.  
-<img width="421" alt="Create Quiz" src="https://github.com/user-attachments/assets/4e80de00-9df3-4a38-9685-4118664304ff" />
+<img width="421" alt="Create Quiz" src="https://github.com/user-attachments/assets/24010bfd-1f8f-441f-94b8-bf48b599759e" />
+" />
 
 ---
 
 ### 5. Fetch Featured Quizzes  
 **GET** `/api/quizzes/featured`  
 Fetches all featured quizzes. Shows empty array if none are featured.  
-<img width="432" alt="Featured Quizzes" src="https://github.com/user-attachments/assets/e87e41a4-e628-4129-96c9-918b5732f352" />
+<img width="432" alt="Featured Quizzes" src="https://github.com/user-attachments/assets/295b6a2a-45f2-401f-99f1-294a3da10aeb" />
+" />
 
 ---
 
 ### 6. Get All Quizzes  
 **GET** `/api/quizzes`  
 Fetches all available quizzes.  
-<img width="424" alt="All Quizzes" src="https://github.com/user-attachments/assets/b1b7696b-b865-49e2-83f8-bcc0167f98fb" />
+<img width="424" alt="All Quizzes" src="https://github.com/user-attachments/assets/23074608-a904-4bc4-8971-d141cb8f0d33" />
+" />
 
 ---
 
