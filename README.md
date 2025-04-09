@@ -148,39 +148,40 @@ Starts the quiz attempt and returns the quiz and questions.
 ### 3. Get Specific Quiz  
 **GET** `/api/quizzes/:id`  
 Fetches quiz details including questions.  
-<img width="427" alt="Get Specific Quiz" src="https://github.com/user-attachments/assets/28858dad-a5d2-47df-9581-1808888fcb2a" />
-" />
+<img width="427" alt="Get Specific Quiz" src="https://github.com/user-attachments/assets/28858dad-a5d2-47df-9581-1808888fcb2a" 
+ />
 
 ---
 
 ### 4. Create Quiz  
 **POST** `/api/quizzes`  
 Creates a new quiz with questions, correct answers, and metadata.  
-<img width="421" alt="Create Quiz" src="https://github.com/user-attachments/assets/24010bfd-1f8f-441f-94b8-bf48b599759e" />
-" />
+<img width="421" alt="Create Quiz" src="https://github.com/user-attachments/assets/24010bfd-1f8f-441f-94b8-bf48b599759e" 
+ />
 
 ---
 
 ### 5. Fetch Featured Quizzes  
 **GET** `/api/quizzes/featured`  
 Fetches all featured quizzes. Shows empty array if none are featured.  
-<img width="432" alt="Featured Quizzes" src="https://github.com/user-attachments/assets/295b6a2a-45f2-401f-99f1-294a3da10aeb" />
-" />
+<img width="432" alt="Featured Quizzes" src="https://github.com/user-attachments/assets/295b6a2a-45f2-401f-99f1-294a3da10aeb" 
+ />
 
 ---
 
 ### 6. Get All Quizzes  
 **GET** `/api/quizzes`  
 Fetches all available quizzes.  
-<img width="424" alt="All Quizzes" src="https://github.com/user-attachments/assets/23074608-a904-4bc4-8971-d141cb8f0d33" />
-" />
+<img width="424" alt="All Quizzes" src="https://github.com/user-attachments/assets/23074608-a904-4bc4-8971-d141cb8f0d33" 
+ />
 
 ---
 
 ### 7. User Registration Error  
 **POST** `/api/users/register`  
 Error test for duplicate email during registration.  
-<img width="423" alt="User Registration Error" src="https://github.com/user-attachments/assets/44806968-4813-45b5-a3ca-39bab61fd671" />
+<img width="423" alt="User Registration Error" src="<img width="432" alt="image" src="https://github.com/user-attachments/assets/54c39ecd-a222-46ae-9ad8-8e311d68304a"
+ />
 
 ---
 
