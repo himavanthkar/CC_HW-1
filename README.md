@@ -120,27 +120,73 @@ This will start both the backend server (port 5001) and the frontend development
 - **Styling**: Bootstrap, CSS
 
 ## Quiz Application - Postman API Testing Documentation ( The formatting for the pictures is a bit jumbled, this documentation is again neatly organised in hw-2 too in a document along with the website screenshots in hw-2
-User Login Test
-POST /api/users/login
+## 📘 Quiz Application – Postman API Testing Documentation
+
+📝 *Note: The formatting for the pictures is a bit jumbled in markdown view. This documentation is also neatly organized in the HW-2 document.*
+
+---
+
+### 🔐 User Login Test  
+**Endpoint:** `POST /api/users/login`  
 Tests login API with email and password. Returns JWT token and user data.
 
-<img width="432" alt="image" src="https://github.com/user-attachments/assets/532d8826-e8be-44a4-b6cd-1a9d21b649e7" />
-1. Get User Profile GET /api/users/me Fetches logged-in user’s profile details with Bearer token.
-<img width="432" alt="image" src="https://github.com/user-attachments/assets/29e2b96f-44c5-4569-9bb5-65dcc0cf0db7" />
-2. Start Quiz Attempt POST /api/quizzes/:id/attempt Starts the quiz attempt and returns the quiz and questions.
+---
 
-<img width="427" alt="image" src="https://github.com/user-attachments/assets/cc20b60b-e788-4e79-b6ea-183fd378d75e" />
-3. Get Specific Quiz GET /api/quizzes/:id Fetches quiz details including questions.
-<img width="421" alt="image" src="https://github.com/user-attachments/assets/4e0de0e0-9df3-4a38-9685-4118664304ff" />
-4. Create Quiz POST /api/quizzes Creates a new quiz with questions, correct answers, and metadata.
-<img width="432" alt="image" src="https://github.com/user-attachments/assets/e87e41a4-e628-4129-96c9-918b5732f352" />
-5. Fetch Featured Quizzes GET /api/quizzes/featured Fetches all featured quizzes. Shows empty if none are featured.
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/b1b7696b-8b65-49e2-83f8-bcc0167f98fb" />
+### 1. Get User Profile  
+**GET** `/api/users/me`  
+Fetches logged-in user’s profile details with Bearer token.  
+<img width="432" alt="Get User Profile" src="https://github.com/user-attachments/assets/532d8826-e8be-44a4-b6cd-1a9d21b649e7" />
 
-6. Get All Quizzes GET /api/quizzes Fetches all available quizzes.
-<img width="423" alt="image" src="https://github.com/user-attachments/assets/44869698-4813-4b55-a3ca-3b9ab61fd671" />
-7. User Registration Error POST /api/users/register Error test for duplicate email during registration.
-<img width="432" alt="image" src="https://github.com/user-attachments/assets/ccb2ab29-17af-4512-8190-f396eb21f352" />
-8. Submit Answer POST /api/attempts/:id/answer Submits the answer for a question, returns correctness and points.
-<img width="427" alt="image" src="https://github.com/user-attachments/assets/d3be638e-bfc8-458b-9267-1a36ee055c9d" />
+---
+
+### 2. Start Quiz Attempt  
+**POST** `/api/quizzes/:id/attempt`  
+Starts the quiz attempt and returns the quiz and questions.  
+<img width="432" alt="Start Quiz Attempt" src="https://github.com/user-attachments/assets/29e2b96f-44c5-4569-9bb5-65dcc0cf0db7" />
+
+---
+
+### 3. Get Specific Quiz  
+**GET** `/api/quizzes/:id`  
+Fetches quiz details including questions.  
+<img width="427" alt="Get Specific Quiz" src="https://github.com/user-attachments/assets/cc28b60e-e788-4279-b6ea-183fd378d75e" />
+
+---
+
+### 4. Create Quiz  
+**POST** `/api/quizzes`  
+Creates a new quiz with questions, correct answers, and metadata.  
+<img width="421" alt="Create Quiz" src="https://github.com/user-attachments/assets/4e80de00-9df3-4a38-9685-4118664304ff" />
+
+---
+
+### 5. Fetch Featured Quizzes  
+**GET** `/api/quizzes/featured`  
+Fetches all featured quizzes. Shows empty array if none are featured.  
+<img width="432" alt="Featured Quizzes" src="https://github.com/user-attachments/assets/e87e41a4-e628-4129-96c9-918b5732f352" />
+
+---
+
+### 6. Get All Quizzes  
+**GET** `/api/quizzes`  
+Fetches all available quizzes.  
+<img width="424" alt="All Quizzes" src="https://github.com/user-attachments/assets/b1b7696b-b865-49e2-83f8-bcc0167f98fb" />
+
+---
+
+### 7. User Registration Error  
+**POST** `/api/users/register`  
+Error test for duplicate email during registration.  
+<img width="423" alt="User Registration Error" src="https://github.com/user-attachments/assets/44806968-4813-45b5-a3ca-39bab61fd671" />
+
+---
+
+### 8. Submit Answer  
+**POST** `/api/attempts/:id/answer`  
+Submits the answer for a question, returns correctness and points.  
+<img width="432" alt="Submit Answer" src="https://github.com/user-attachments/assets/ccb2ab29-17af-4512-8190-f396eb21f352" />
+
+---
+
+
 
