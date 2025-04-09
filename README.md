@@ -119,7 +119,7 @@ This will start both the backend server (port 5001) and the frontend development
 - **Authentication**: JWT, bcrypt
 - **Styling**: Bootstrap, CSS
 
-## Quiz Application - Postman API Testing Documentation
+## Quiz Application - Postman API Testing Documentation ( The formatting for the pictures is a bit jumbled, this documentation is again neatly organised in hw-2 too in a document along with the website screenshots in hw-2
 User Login Test
 POST /api/users/login
 Tests login API with email and password. Returns JWT token and user data.
