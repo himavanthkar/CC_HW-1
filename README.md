@@ -180,7 +180,7 @@ Fetches all available quizzes.
 ### 7. User Registration Error  
 **POST** `/api/users/register`  
 Error test for duplicate email during registration.  
-<img width="423" alt="User Registration Error" src="<img width="432" alt="image" src="https://github.com/user-attachments/assets/54c39ecd-a222-46ae-9ad8-8e311d68304a"
+<img width="423" alt="User Registration Error" src="https://github.com/user-attachments/assets/54c39ecd-a222-46ae-9ad8-8e311d68304a"
  />
 
 ---
