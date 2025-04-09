@@ -148,7 +148,8 @@ Starts the quiz attempt and returns the quiz and questions.
 ### 3. Get Specific Quiz  
 **GET** `/api/quizzes/:id`  
 Fetches quiz details including questions.  
-<img width="427" alt="Get Specific Quiz" src="https://github.com/user-attachments/assets/cc28b60e-e788-4279-b6ea-183fd378d75e" />
+<img width="427" alt="Get Specific Quiz" src="https://github.com/user-attachments/assets/28858dad-a5d2-47df-9581-1808888fcb2a" />
+" />
 
 ---
 
